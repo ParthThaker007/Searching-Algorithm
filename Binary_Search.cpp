@@ -21,9 +21,9 @@ int main()
     int Size,SearchElement;
     cout<<"Please Enter the Size of array "<<endl;
     cin>>Size;
-    int arr[n];
+    int *arr = new int[Size];
     cout<<"Eneter the Element for array in sorted way"<<endl;
-    for(int i =0;i<n;i++){
+    for(int i =0;i<Size;i++){
         cin>>arr[i];
     }
     cout<<"Now Enter the element to be searched"<<endl;
